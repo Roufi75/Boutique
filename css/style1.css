@@ -1,0 +1,102 @@
+body{
+    font-family:'Inter',sans-serif;
+    background: #fafafa;
+    margin: 4px 4%;
+    padding: 20px;
+}
+
+h1{
+    background-color: black;
+    color: blueviolet;
+    text-align: center;
+    counter-reset: red;
+    font-family: Georgia, serif;
+    
+}
+.produits{ 
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.produits img{
+    height: 200px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+
+h2 {
+    background-color: darkgrey;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif sans-serif;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+h3 {
+    background-color: chocolate;
+    text-align: center;
+    font-family: Georgia, serif;
+    color: aqua;
+}
+img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+h4{
+    background-color: chartreuse;
+    border-color: yellowgreen;
+        font-family: Georgia, serif;
+    text-align: center;
+}
+.mot{
+    color: darkgreen;
+}
+h5{
+    background-color: black;
+    text-align: center;
+    font-family: Georgia, serif;
+    color: hotpink;
+
+}
+h6{
+    background-color: black;
+    
+    margin: 20px auto;
+    padding: 8px 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+    color: hotpink;
+
+}
+.commande{
+    text-align: center;
+         padding: 10px 20px;
+        border-radius: 20px;
+         width: fit-content;
+        margin: 10px auto;
+
+}
+footer{
+    background-color: darkblue;
+    color: aliceblue;
+    text-align: center;
+
+}
+ button{
+    background-color: blue;
+    color: aliceblue;
+    margin: 20px auto;
+    padding: 8px 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+
+    display: block;
+    
+ }
+
+
+ 
